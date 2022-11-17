@@ -242,7 +242,7 @@ int DTW_Function::iteration_dtw(vector<vector<string> > match_csv_content, vecto
 
     return 0;
 }
-
+/* 
 vector<float> DTW_Function::standard_normal(vector<float> ini_vector){
     vector<float> temp;
     float mean;
@@ -268,4 +268,4 @@ float DTW_Function::vector_std_variance(vector<float> distance, float mean){
     }
     temp = sqrt(temp / distance.size());
     return temp;
-}
+} */
