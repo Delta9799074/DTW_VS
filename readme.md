@@ -7,7 +7,7 @@ Audio dataset from https://www.kaggle.com/datasets/sripaadsrinivasan/audio-mnist
 # Python FastDTW
 ## Accuarcy
 97%
-![](img/Untitled(1).png)
+![](https://github.com/Delta9799074/DTW_VS/blob/master/img/Untitled%20(1).png)
 
 # C++ DTW
 ## Accuarcy
