@@ -61,12 +61,14 @@ float DTW_Function::ComputeDTW(float *cep1, float *cep2, int num1, int num2){
     for(i=0;i<5;i++)
     {
         if(i==0)  {	re[i].x=1; re[i].y=1; }
-        if(i==1)  {	re[i].x=1; re[i].y=2; }
-        if(i==2)  {	re[i].x=1; re[i].y=3; }
-        if(i==3)  {	re[i].x=2; re[i].y=1; }
-        if(i==4)  {	re[i].x=3; re[i].y=1; }
+        if(i==1  && (num1 * num2 > 1) )  {	re[i].x=1; re[i].y=2; }
+        if(i==2  && (num1 * num2 > 2) )  {	re[i].x=1; re[i].y=3; }
+        if(i==3  && (num1 * num2 > 3) )  {	re[i].x=2; re[i].y=1; }
+        if(i==4  && (num1 * num2 > 4) )  {	re[i].x=3; re[i].y=1; }
+        if(num1 * num2 > 5){
         poi[(re[i].y-1)*num1+re[i].x-1].minvalue=Distance(cep1,cep2,re[i].x,re[i].y);
         poi[(re[i].y-1)*num1+re[i].x-1].stepnum=1;
+        }
     }
     renum=5;
     int newx,newy;                   //newvalue;
