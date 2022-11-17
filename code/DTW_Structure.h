@@ -11,7 +11,7 @@
 #include <fstream>
 #include <iterator>
 #include <algorithm>
-#include <numeric>
+//#include <numeric>
 
 #include<stdlib.h>
 #include<malloc.h>
