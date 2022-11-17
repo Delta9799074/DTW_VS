@@ -8,25 +8,25 @@ Audio dataset from https://www.kaggle.com/datasets/sripaadsrinivasan/audio-mnist
 ## Accuarcy
 97%
 
-![image](https://github.com/Delta9799074/DTW_VS/blob/master/img/Untitled%20(1).png)
+![image](img/pyaccu.png)
 
 # C++ DTW
 ## Accuarcy
 Only 10%:sweat_smile:
 
-![image](https://github.com/Delta9799074/DTW_VS/blob/master/img/Untitled%20(2).png)
+![image](img/vsaccu.png)
 
 ## Utilization
 
-![image](https://github.com/Delta9799074/DTW_VS/blob/master/img/Untitled%20(3).png)
+![image](img/summary.png)
 
 ### CPU Details
 
-![image](https://github.com/Delta9799074/DTW_VS/blob/master/img/Untitled%20(4).png)
+![image](img/func1.png)
 
-![image](https://github.com/Delta9799074/DTW_VS/blob/master/img/Untitled%20(5).png)
+![image](img/func2.png)
 
 Function Distance used 53.42%.
 ### Memory Details
 
-![image](https://github.com/Delta9799074/DTW_VS/blob/master/img/Untitled%20(6).png)
+![image](img/memuti.png)
