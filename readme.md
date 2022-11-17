@@ -30,3 +30,5 @@ Function Distance used 53.42%.
 ### Memory Details
 
 ![image](img/memuti.png)
+
+See readme.pdf
