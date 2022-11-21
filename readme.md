@@ -12,7 +12,7 @@ Audio dataset from https://www.kaggle.com/datasets/sripaadsrinivasan/audio-mnist
 
 # C++ DTW
 ## Accuarcy
-Only 10%:sweat_smile:
+
 
 ![image](img/vsaccu.png)
 
